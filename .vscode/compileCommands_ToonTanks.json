@@ -1,0 +1,27 @@
+[
+	{
+		"file": "E:\\\\GamesDevelopement\\\\UE_Udemy_Remastred\\\\05_Toon_Tanks_UE5\\\\ToonTanks_UE5\\\\Source\\\\ToonTanks\\\\BasePawn.cpp",
+		"command": "cl.exe @\"E:\\GamesDevelopement\\UE_Udemy_Remastred\\05_Toon_Tanks_UE5\\ToonTanks_UE5\\.vscode\\compileCommands_ToonTanks\\ToonTanks.196.rsp\"",
+		"directory": "E:\\Program Files (x86)\\Ep\\UE_5.0EA\\Engine\\Source"
+	},
+	{
+		"file": "E:\\\\GamesDevelopement\\\\UE_Udemy_Remastred\\\\05_Toon_Tanks_UE5\\\\ToonTanks_UE5\\\\Source\\\\ToonTanks\\\\BasePawn.h",
+		"command": "cl.exe @\"E:\\GamesDevelopement\\UE_Udemy_Remastred\\05_Toon_Tanks_UE5\\ToonTanks_UE5\\.vscode\\compileCommands_ToonTanks\\ToonTanks.196.rsp\"",
+		"directory": "E:\\Program Files (x86)\\Ep\\UE_5.0EA\\Engine\\Source"
+	},
+	{
+		"file": "E:\\\\GamesDevelopement\\\\UE_Udemy_Remastred\\\\05_Toon_Tanks_UE5\\\\ToonTanks_UE5\\\\Source\\\\ToonTanks\\\\ToonTanks.Build.cs",
+		"command": "cl.exe @\"E:\\GamesDevelopement\\UE_Udemy_Remastred\\05_Toon_Tanks_UE5\\ToonTanks_UE5\\.vscode\\compileCommands_ToonTanks\\ToonTanks.196.rsp\"",
+		"directory": "E:\\Program Files (x86)\\Ep\\UE_5.0EA\\Engine\\Source"
+	},
+	{
+		"file": "E:\\\\GamesDevelopement\\\\UE_Udemy_Remastred\\\\05_Toon_Tanks_UE5\\\\ToonTanks_UE5\\\\Source\\\\ToonTanks\\\\ToonTanks.cpp",
+		"command": "cl.exe @\"E:\\GamesDevelopement\\UE_Udemy_Remastred\\05_Toon_Tanks_UE5\\ToonTanks_UE5\\.vscode\\compileCommands_ToonTanks\\ToonTanks.196.rsp\"",
+		"directory": "E:\\Program Files (x86)\\Ep\\UE_5.0EA\\Engine\\Source"
+	},
+	{
+		"file": "E:\\\\GamesDevelopement\\\\UE_Udemy_Remastred\\\\05_Toon_Tanks_UE5\\\\ToonTanks_UE5\\\\Source\\\\ToonTanks\\\\ToonTanks.h",
+		"command": "cl.exe @\"E:\\GamesDevelopement\\UE_Udemy_Remastred\\05_Toon_Tanks_UE5\\ToonTanks_UE5\\.vscode\\compileCommands_ToonTanks\\ToonTanks.196.rsp\"",
+		"directory": "E:\\Program Files (x86)\\Ep\\UE_5.0EA\\Engine\\Source"
+	}
+]

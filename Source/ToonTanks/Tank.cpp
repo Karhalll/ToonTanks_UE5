@@ -43,21 +43,14 @@ void ATank::Tick(float DeltaTime)
             false,
             HitResult);
 
-        DrawDebugSphere(
-        GetWorld(),
-        HitResult.ImpactPoint,
-        25.f,
-        12,
-        FColor::Red,
-        false,
-        -1.f);
+        RotateTurret(HitResult.ImpactPoint);
     }    
 }
 
-void ATank::Move(const float Value)
+void ATank::Move(float Value)
 {
     FVector DeltaLocation = FVector::ZeroVector;
-    const float DeltaTime = UGameplayStatics::GetWorldDeltaSeconds(this);
+    float DeltaTime = UGameplayStatics::GetWorldDeltaSeconds(this);
     DeltaLocation.X = Value * DeltaTime * Speed;
     AddActorLocalOffset(DeltaLocation, true);
 }
@@ -65,9 +58,7 @@ void ATank::Move(const float Value)
 void ATank::Turn(float Value)
 {
     FRotator DeltaRotation = FRotator::ZeroRotator;
-    const float DeltaTime = UGameplayStatics::GetWorldDeltaSeconds(this);
+    float DeltaTime = UGameplayStatics::GetWorldDeltaSeconds(this);
     DeltaRotation.Yaw = Value * DeltaTime * TurnRate;
     AddActorLocalRotation(DeltaRotation, true);
-    
 }
-

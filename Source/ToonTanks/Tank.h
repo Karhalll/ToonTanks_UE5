@@ -17,6 +17,12 @@ public:
 
     virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+protected:
+    virtual void BeginPlay() override;
+
+public:	
+    virtual void Tick(float DeltaTime) override;
+    
 private:
     UPROPERTY(VisibleAnywhere, Category = "Components")
     class USpringArmComponent* SpringArm;
@@ -30,4 +36,6 @@ private:
 
     void Move(float Value);
     void Turn(float Value);
+
+    APlayerController* PlayerControllerRef;
 };

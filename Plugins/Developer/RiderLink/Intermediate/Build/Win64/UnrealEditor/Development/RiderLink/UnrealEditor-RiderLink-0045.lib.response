@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RiderLink-0045.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\GamesDevelopement\UE_Udemy_Remastred\05_Toon_Tanks_UE5\ToonTanks_UE5\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Module.RiderLink.cpp.obj"
+"E:\GamesDevelopement\UE_Udemy_Remastred\05_Toon_Tanks_UE5\ToonTanks_UE5\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Default.rc2.res"
+/OUT:"E:\GamesDevelopement\UE_Udemy_Remastred\05_Toon_Tanks_UE5\ToonTanks_UE5\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\UnrealEditor-RiderLink-0045.lib"
+/INCLUDE:IMPLEMENT_MODULE_RiderLink

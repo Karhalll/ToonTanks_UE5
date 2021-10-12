@@ -1,0 +1,2 @@
+E:\GamesDevelopement\UE_Udemy_Remastred\05_Toon_Tanks_UE5\ToonTanks_UE5\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RD\Definitions.h
+E:\GamesDevelopement\UE_Udemy_Remastred\05_Toon_Tanks_UE5\ToonTanks_UE5\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src\RdTextBuffer.h

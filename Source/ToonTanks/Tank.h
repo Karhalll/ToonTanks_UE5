@@ -20,9 +20,11 @@ public:
 private:
     UPROPERTY(VisibleAnywhere, Category = "Components")
     class USpringArmComponent* SpringArm;
-
     UPROPERTY(VisibleAnywhere,Category = "Components")
     class UCameraComponent* Camera;
+
+    UPROPERTY(EditAnywhere, Category = "Movement")
+    float Speed = 10.f;
 
     void Move(float Value);
 };

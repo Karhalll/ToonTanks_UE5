@@ -4,6 +4,7 @@
 
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 ATank::ATank()
 {
@@ -17,12 +18,15 @@ ATank::ATank()
 void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
     Super::SetupPlayerInputComponent(PlayerInputComponent);
-
+        
     PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &ATank::Move);
 }
 
-void ATank::Move(float Value)
+void ATank::Move(const float Value)
 {
-    UE_LOG(LogTemp, Warning, TEXT("Move value: %f"), Value);
+    FVector DeltaLocation(0.f);
+    const float DeltaTime = UGameplayStatics::GetWorldDeltaSeconds(this);
+    DeltaLocation.X = Value * DeltaTime * Speed;
+    AddActorLocalOffset(DeltaLocation);
 }
 

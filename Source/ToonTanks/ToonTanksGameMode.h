@@ -22,4 +22,6 @@ private:
 	class AToonTanksPlayerController* ToonTanksPlayerController;
 
 	float StartDealy = 3.f;
+
+	void HandleGameStart();
 };

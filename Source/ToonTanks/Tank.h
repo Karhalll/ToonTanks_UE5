@@ -16,12 +16,16 @@ public:
     ATank();
 
     virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
+    
 protected:
     virtual void BeginPlay() override;
 
 public:	
     virtual void Tick(float DeltaTime) override;
+
+    void HandleDestruction();
+
+    APlayerController* GetTankPlayerController() const { return TankPlayerController; }
     
 private:
     UPROPERTY(VisibleAnywhere, Category = "Components")
@@ -37,5 +41,5 @@ private:
     void Move(float Value);
     void Turn(float Value);
 
-    APlayerController* PlayerControllerRef;
+    APlayerController* TankPlayerController;
 };

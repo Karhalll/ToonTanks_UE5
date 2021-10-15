@@ -50,7 +50,7 @@ void AToonTanksGameMode::HandleGameStart()
 		GetWorldTimerManager().SetTimer(
 			PlayerEnableTimerHandle,
 			PlayerEnableTimerDelegate,
-			StartDealy,
+			StartDelay,
 			false
 		);
 	}

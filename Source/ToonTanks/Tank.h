@@ -26,6 +26,8 @@ public:
     void HandleDestruction();
 
     APlayerController* GetTankPlayerController() const { return TankPlayerController; }
+
+    bool bAlive = true;
     
 private:
     UPROPERTY(VisibleAnywhere, Category = "Components")
